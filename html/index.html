@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anthesis-Jett</title>
+    <link href="/ajigile/img/jett-skill4.png" rel="icon">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,100;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="/ajigile/css/style.css">
+
+</head>
+
+<body>
+    <!-- Navbar Started -->
+    <nav class="navbar">
+        <a href="#" class="navbar-logo">Anthe<span>sis</span></a>
+
+        <div class="navbar-nav">
+            <a href="#home">Home</a>
+            <a href="#about">About Her</a>
+            <a href="#menu">Skills</a>
+            <a href="#contact">Contact Us</a>
+        </div>
+
+        <div class="navbar-extra">
+            <a href="#" id="search"><i data-feather="search"></i></a>
+            <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+            <a id="hamburger-menu"><i data-feather="menu"></i></a>
+        </div>
+    </nav>
+    <!-- Navbar Ended -->
+
+    <!-- Hero Section Started -->
+    <section class="hero" id="home">
+        <div class="video">
+            <video autoplay muted loop>
+                <source src="/ajigile/img/jett-vid.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <main class="content">
+            <h1>Lemme tell you something about <span>Jett</span></h1>
+            <p>"Think you can keep up? Who am I kidding? You know you can't keep up."</p>
+            <a class="cta" href="https://youtu.be/xU2U73Tk-DM" target="_blank">Watch This!</a>
+        </main>
+    </section>
+    <!-- Hero Section Ended -->
+
+    <!-- About Section Started -->
+    <section id="about" class="about">
+        <h2>About <span>Jett</span></h2>
+
+        <div class="row">
+            <div class="about-img">
+                <img src="/ajigile/img/jett-abt.jpg" alt="about">
+            </div>
+
+            <div class="content">
+                <h3>Why Jett?</h3>
+                <p>Sunwoo Han (Korean: 한선우) hails from South Korea, with possible links to the Insa-dong
+                    neighborhood in
+                    Seoul. As a chef in her early life, she was involved in an incident relating to her wind-like
+                    radiant powers at the restaurant she worked at, causing a "freak storm" that all but destroyed
+                    the
+                    building. Sunwoo fled the scene soon after.</p>
+
+                <p>The wind is commonly known for being cool, but Jett is an aggressive agent who has a distinctive,
+                    sarcastic personality. Jett also has a cheeky, childish "in-your-face" attitude, seen commonly
+                    giving insults for feats she makes on the team and is always spouting her sheer amount of
+                    arrogance.
+                    Her self-confidence may feel as if she is disregarding her comrades' safety, but she has
+                    recognized
+                    that it is best to play with a team, albeit with some reluctance. She does show a much more
+                    friendly
+                    personality towards teammates.</p>
+
+                <p>Representing her home country of South Korea, Jett's agile and evasive fighting style lets her take
+                    risks
+                    no
+                    one else can. She runs circles around every skirmish, cutting enemies before they even know what hit
+                    them.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- About Section Ended -->
+
+    <!-- Menu Section Started -->
+    <section id="menu" class="menu">
+        <h2><span>Jett's </span>Skills</h2>
+
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="video">
+                    <video autoplay muted loop>
+                        <source src="/ajigile/img/Jett-Q.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <p class="menu-card-desc">Instantly propel Jett high into the air.</p>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="video">
+                    <video autoplay muted loop>
+                        <source src="/ajigile/img/Jett-E.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <p class="menu-card-desc">Instantly propel Jett in the direction she is moving. If Jett is standing
+                    still, she will propel forward.</p>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="video">
+                    <video autoplay muted loop>
+                        <source src="/ajigile/img/Jett_C.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <p class="menu-card-desc">Instantly throw a projectile that expands into a brief vision-blocking
+                    cloud
+                    on impact with a surface. Hold the ability key to curve the smoke in the direction of your
+                    crosshair.</p>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="video">
+                    <video autoplay muted loop>
+                        <source src="/ajigile/img/Jett_X.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <p class="menu-card-desc">Equip a set of highly accurate throwing knives that recharge on killing an
+                    opponent. Fire to throw a single knife at your target. AlternateFire to throw all remaining
+                    daggers
+                    at your target.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="menu-card">
+                <img class="menu-card-img" src="/ajigile/img/jett-skill1.png" alt="Skill Q" onclick="currentSlide(1)">
+                <h3 class="menu-card-title">-- Updraft --</h3>
+                <p class="menu-card-key">Skill Q</p>
+            </div>
+            <div class="menu-card">
+                <img class="menu-card-img" src="/ajigile/img/jett-skill3.png" alt="Skill E" onclick="currentSlide(2)">
+                <h3 class="menu-card-title">-- Tailwind --</h3>
+                <p class="menu-card-key">Skill E</p>
+            </div>
+            <div class="menu-card">
+                <img class="menu-card-img" src="/ajigile/img/jett-skill2.png" alt="Skill C" onclick="currentSlide(3)">
+                <h3 class="menu-card-title">-- Cloudburst --</h3>
+                <p class="menu-card-key">Skill C</p>
+            </div>
+            <div class="menu-card">
+                <img class="menu-card-img" src="/ajigile/img/jett-skill4.png" alt="Skill X" onclick="currentSlide(4)">
+                <h3 class="menu-card-title">-- Blade storm --</h3>
+                <p class="menu-card-key">Skill X</p>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </section>
+    <!-- Menu Section Ended -->
+
+    <!-- Contact Section Started -->
+    <section id="contact" class="contact">
+        <h2>Contact <span>Us</span></h2>
+        <p>Anthesis is a blogspot that decsribing about female agents in Valorant. <br>
+            Please gladly found us, or make a request for business requirement.
+        </p>
+
+        <div class="row">
+            <iframe class="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126748.56400425493!2d107.56075418840382!3d-6.903442379187649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e6398252477f%3A0x146a1f93d3e815b2!2sBandung%2C%20Kota%20Bandung%2C%20Jawa%20Barat!5e0!3m2!1sid!2sid!4v1685886999302!5m2!1sid!2sid"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <form action="">
+                <div class="input-group">
+                    <i data-feather="user"></i>
+                    <input type="text" placeholder="Name">
+                </div>
+                <div class="input-group">
+                    <i data-feather="mail"></i>
+                    <input type="text" placeholder="Email">
+                </div>
+                <div class="input-group">
+                    <i data-feather="phone"></i>
+                    <input type="text" placeholder="Phone Number">
+                </div>
+                <button type="submit" class="btn">Submit Here</button>
+            </form>
+        </div>
+    </section>
+    <!-- Contact Section Ended -->
+
+    <!-- Footer Started -->
+    <footer>
+        <div class="socials">
+            <a href="#"><i data-feather="instagram"></i></a>
+            <a href="#"><i data-feather="twitter"></i></a>
+            <a href="#"><i data-feather="facebook"></i></a>
+        </div>
+
+        <div class="closing">
+            <p>Please support us by instant-locking Jett in rank</p>
+        </div>
+
+        <div class="credit">
+            <p>Created by <span>Anthesis </span>himself. | &copy; 2023</p>
+        </div>
+    </footer>
+    <!-- Footer Ended -->
+
+    <!-- Feather Icons -->
+    <script>
+        feather.replace()
+    </script>
+
+    <!-- JavaScript -->
+    <script src="/ajigile/js/script.js"></script>
+</body>
+
+</html>
